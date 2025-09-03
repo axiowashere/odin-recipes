@@ -1,0 +1,27 @@
+body{
+    font-family: Helvetica, Verdana, Arial;
+    background-color: rgb(255, 238, 238)
+}
+
+.main-box{
+    margin: 250px auto;
+    width: 1000px;
+    padding: 16px;
+    align-items: center;
+}
+
+.title-box {
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(243, 185, 158);
+}
+
+.recipe-box{
+    background-color: rgb(250, 217, 207);
+    text-decoration-color: rgb(250, 136, 107);
+    display: inline-block;
+    width: 175px;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+}
