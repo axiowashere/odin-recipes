@@ -1,14 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: Helvetica, Verdana, Arial;
-    background-color: rgb(255, 238, 238)
+    background-color: rgb(255, 238, 238);
+}
+
+.panel-bar{
+    margin: 0;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(189, 165, 165);
+    color: black;
+    font-size: larger;
 }
 
 .main-box{
     margin: 250px auto;
-    width: 1000px;
-    padding: 16px;
+    width: 1100px;
+    padding: 8px;
     align-items: center;
 }
+
 
 .title-box {
     font-size: xx-large;
@@ -16,12 +30,40 @@ body{
     background-color: rgb(243, 185, 158);
 }
 
+#recipe{
+    width: 1500px;
+    padding: 10px 0;
+    margin: 10px auto;
+}
+
+.panel{
+    padding: 30px;
+    width: 1500px;
+    margin: 10px auto;
+    background-color:rgb(250, 217, 207);
+}
+
+.splitpanel{
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    background-color: rgb(245, 221, 213);
+}
+
 .recipe-box{
     background-color: rgb(250, 217, 207);
     text-decoration-color: rgb(250, 136, 107);
     display: inline-block;
-    width: 175px;
+    width: 225px;
     height: auto;
-    padding: 20px;
+    padding: 15px;
     margin: 10px;
+}
+
+.graphic{
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 30px;
 }
